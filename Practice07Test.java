@@ -19,10 +19,11 @@ public class Practice07Test {
 	protected boolean basicStoreRemoveTest(List<String> list) {
 		// Obvious, I think...
 		String sample = "Hello world!";
-		
 		try {
 			list.add(sample);
+//			System.out.println(list.get(0).equals(sample));
 			if (list.get(0).equals(sample)) {
+//				System.out.println("");
 				list.remove(0);
 				if (list.size() == 0) {
 					return true;
