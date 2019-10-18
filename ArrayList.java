@@ -8,7 +8,7 @@ public class ArrayList<T> implements List<T>
 
     public ArrayList()
     {
-        arr = (T[]) new Objects[10];
+        arr = (T[]) new Object[10];
 //        size = 0;
     }
 
